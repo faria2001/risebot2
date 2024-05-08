@@ -103,7 +103,7 @@ export default function Contact() {
                             </div>
                         </div>
                     </section>
-                    <section className="tf-section tf_CTA">
+                    {/* <section className="tf-section tf_CTA">
                         <div className="container relative">
                             <div className="overlay">
                             </div>
@@ -128,7 +128,7 @@ export default function Contact() {
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
                 </div>
 
             </Layout>

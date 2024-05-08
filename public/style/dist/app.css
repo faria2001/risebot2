@@ -40,7 +40,7 @@ body.home2 .bg_body .bg_h2 img {
   height: 100%;
   opacity: 0.5;
   background: linear-gradient(180deg, #09121D 3.92%, rgba(9, 18, 29, 0) 36.79%, #09121D 83.98%);
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 p {
@@ -1343,6 +1343,19 @@ form button {
   position: relative;
   overflow: hidden;
 }
+
+.project-wrapper .content-wrapper .content_inner_left {
+  padding: 30px 30px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ 
+  background:  linear-gradient(270deg, rgba(35, 44, 54, 0) 100%, #1A222C 17.33%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
 .project-wrapper .content-wrapper .content_inner .wrapper {
   position: relative;
   z-index: 9999;
@@ -1496,11 +1509,14 @@ form button {
   padding-left: 4px;
 }
 
+ 
+
+
 .img_technology {
   position: relative;
 }
 .img_technology .coin {
-  position: absolute;
+  position: relative;
 }
 .img_technology .coin.coin_1 {
   top: 44%;
@@ -1516,12 +1532,16 @@ form button {
   animation: move2 5s infinite linear;
   -webkit-animation: move2 5s infinite linear;
 }
+
 .img_technology .coin.coin_3 {
   top: 12%;
   left: -2%;
   animation: move3 5s infinite linear;
   -webkit-animation: move3 5s infinite linear;
 }
+
+
+
 .img_technology .coin.coin_4 {
   top: 43%;
   left: 26%;
@@ -1537,12 +1557,161 @@ form button {
   -webkit-animation: move4 5s infinite linear;
 }
 .img_technology .coin.coin_6 {
+  
   bottom: 6px;
   left: -6%;
   transform: rotate(45.48deg);
-  animation: move3 5s infinite linear;
-  -webkit-animation: move3 5s infinite linear;
+  animation: move2 5s infinite linear;
+  -webkit-animation: move2 5s infinite linear;
 }
+
+.img_technology .coin.coin_7 {
+  bottom: -7%;
+  right: 17%;
+  transform: rotate(-21.27deg);
+  animation: move2 5s infinite linear;
+  -webkit-animation: move2 5s infinite linear;
+}
+
+.img_technology .coin.coin_8 {
+  position: absolute;
+  top: -10%;
+  left: 53%;
+  animation: move8 5s infinite linear;
+  -webkit-animation: move8 5s infinite linear;
+}
+
+.img_technology .coin.coin_9 {
+  position: absolute;
+  top: 100%;
+  left: 12%;
+  animation: move9 5s infinite linear;
+  -webkit-animation: move9 5s infinite linear;
+}
+
+.img_technology .coin.coin_10 {
+  bottom: 6px;
+  left: 30%;
+  transform: rotate(45.48deg);
+  animation: move10 5s infinite linear;
+  -webkit-animation: move10 5s infinite linear;
+}
+
+@keyframes move6 {
+  0% {
+    -webkit-transform: rotate(0) translate(0);
+    transform: rotate(0) translate(0);
+  }
+  50% {
+    -webkit-transform: rotate(20deg) translate(10px, -10px);
+    transform: rotate(20deg) translate(10px, -10px);
+  }
+  100% {
+    -webkit-transform: rotate(0) translate(0);
+    transform: rotate(0) translate(0);
+  }
+}
+
+.img_technology .coin.coin_11 {
+  position: absolute;
+  top: 230%;
+  left: 90%;
+  animation: move6 5s infinite linear;
+  -webkit-animation: move6 5s infinite linear;
+}
+
+@keyframes move7 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  50% {
+    -webkit-transform: translate(20px);
+    transform: translate(20px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.img_technology .coin.coin_12 {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  animation: move7 5s infinite linear;
+  -webkit-animation: move7 5s infinite linear;
+}
+
+@keyframes move8 {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.img_technology .coin.coin_13 {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+  animation: move8 5s infinite linear;
+  -webkit-animation: move8 5s infinite linear;
+}
+
+@keyframes move9 {
+  0% {
+    -webkit-transform: rotate(0) translate(0);
+    transform: rotate(0) translate(0);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg) translate(-10px, 10px);
+    transform: rotate(-20deg) translate(-10px, 10px);
+  }
+  100% {
+    -webkit-transform: rotate(0) translate(0);
+    transform: rotate(0) translate(0);
+  }
+}
+
+.img_technology .coin.coin_14 {
+  position: absolute;
+  top: 290%;
+  left: 15%;
+  animation: move9 5s infinite linear;
+  -webkit-animation: move9 5s infinite linear;
+}
+
+@keyframes move10 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg) translate(-10px, 10px);
+    transform: rotate(-20deg) translate(-10px, 10px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.img_technology .coin.coin_15 {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  animation: move10 5s infinite linear;
+  -webkit-animation: move10 5s infinite linear;
+}
+
 
 .content_faq {
   text-align: center;
@@ -1693,6 +1862,17 @@ form button {
   border: 2px solid rgba(255, 255, 255, 0.0784313725);
   margin: 0 auto 30px auto;
 }
+
+.project-info-form.no-style {
+  border: none;  /* Removes the border */
+  margin: 0;
+  padding: 0;
+}
+
+.forget-form.project-info-form.no-style {
+  padding: 0;
+}
+
 .project-info-form.check-radio {
   padding-bottom: 7px;
 }
@@ -3784,6 +3964,15 @@ form button {
   max-width: 350px;
   margin: 0 auto;
 }
+
+.topPicture {
+  position: absolute;
+  top: -100px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
 .icon-box .top {
   text-align: center;
   -webkit-mask-image: url("./../../assets/images/backgroup/bg_box_1.png");
@@ -3804,6 +3993,10 @@ form button {
   position: relative;
   z-index: 1;
 }
+
+ 
+
+
 .icon-box .top .icon {
   margin-bottom: 12px;
 }

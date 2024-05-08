@@ -78,7 +78,8 @@ export default function Footer1() {
                     <div className="container">
                         <div className="wrap-fx">
                             <div className="Copyright">
-                                Copyright © {new Date().getFullYear()}. Designed by <Link href="https://themeforest.net/user/themesflat/portfolio">Themesflat</Link>
+                            © 2024, Asvoria Launchpad by <Link href="https://brdigitech.com/">BRDIGITECH</Link>
+                                 
                             </div>
                             <ul className="social">
                                 <li>

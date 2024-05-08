@@ -35,7 +35,7 @@ export default function AddClassBody() {
             // Add class based on pathname
             // Add class based on pathname
             if (pathname === '/') {
-                bodyElement.classList.add('main', 'home1', 'counter-scroll')
+                bodyElement.classList.add('main', 'home2', 'counter-scroll')
             }
             else if (pathname === '/home-02') {
                 bodyElement.classList.add('main', 'home2')
@@ -101,6 +101,12 @@ export default function AddClassBody() {
                 bodyElement.classList.add('inner-page', 'blog-list')
             }
             else if (pathname === '/contact') {
+                bodyElement.classList.add('inner-page', 'contact-page')
+            }
+            else if (pathname === '/presale') {
+                bodyElement.classList.add('inner-page', 'contact-page')
+            }
+            else if (pathname === '/staking') {
                 bodyElement.classList.add('inner-page', 'contact-page')
             }
             else if (pathname === '/roadmap') {

@@ -18,25 +18,31 @@ export default function Home2() {
     return (
         <>
 
-            <Layout headerStyle={1} footerStyle={1}>
-                <Pagetitle2 />
-                <Feature1 />
+            <Layout headerStyle={1} footerStyle={1}>           
                 <div className="bg_body">
                     <div className="bg_h2">
-                        <img src="/assets/images/backgroup/bg_home2.png" alt="" />
+                        <img src="/assets/images/backgroup/bg_home2.png" alt="" style={{ width: '100%', height: 'auto', display: 'block' }}/>
                     </div>
-                    <Project22 />
-                    <Token2 />
-                    <Tiersystem />
+
                     <Technology />
                     <Roadmap />
-                    <Project23 />
-                    <Team2 />
+
+                {/* <Pagetitle2 /> */}
+                  <Feature1 />  
+
+                    {/* <Project22 /> */}
+                    <Token2 />
+                    {/* <Tiersystem /> */}
+                    {/* <Technology /> */}
+                    {/* <Roadmap /> */}
+                    {/* <Project23 /> */}
+                    {/* <Team2 /> */}
                 </div>
+                
                 <Partner2 />
-                <Cta21 />
+                {/* <Cta21 /> */}
                 <Faqs1 />
-                <Cta3 />
+                {/* <Cta3 /> */}
             </Layout>
         </>
     )

@@ -18,7 +18,11 @@ export default function Menu() {
     return (
         <nav id="main-nav" className="main-nav">
             <ul id="menu-primary-menu" className="menu">
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/home-02", "/home-03"])}`}>
+            <li className={`menu-item ${pathname === "/home-02" ? "current-menu-item" : ""}`}>
+                <Link href="/">Home</Link>
+            </li>
+
+                {/* <li className={`menu-item menu-item-has-children ${checkParentActive(["/home-02", "/home-03"])}`}>
                     <Link href="#">Home</Link>
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/")}`}>
@@ -31,8 +35,11 @@ export default function Menu() {
                             <Link href="/home-03">Home 3</Link>
                         </li>
                     </ul>
-                </li>
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/project-grid", "/project-grid-2", "/project-grid-3", "/project-grid-4", "/project-grid-5", "/project-list", "/project-details", "/submit-project"])}`}>
+                </li> */}
+
+                
+
+                {/* <li className={`menu-item menu-item-has-children ${checkParentActive(["/project-grid", "/project-grid-2", "/project-grid-3", "/project-grid-4", "/project-grid-5", "/project-list", "/project-details", "/submit-project"])}`}>
                     <Link href="#">Project</Link>
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/project-grid")}`}>
@@ -60,8 +67,8 @@ export default function Menu() {
                             <Link href="/submit-project">Submit Project</Link>
                         </li>
                     </ul>
-                </li>
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/token", "/connect-wallet", "/team-details", "/submit-IGO-on-chain", "/faq", "/login", "/register", "/forget-password"])}`}>
+                </li> */}
+                {/* <li className={`menu-item menu-item-has-children ${checkParentActive(["/token", "/connect-wallet", "/team-details", "/submit-IGO-on-chain", "/faq", "/login", "/register", "/forget-password"])}`}>
                     <Link href="#">Page</Link>
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/token")}`}>
@@ -89,11 +96,11 @@ export default function Menu() {
                             <Link href="/forget-password">Forget Password</Link>
                         </li>
                     </ul>
-                </li>
+                </li> */}
                 <li className={`menu-item ${pathname === "/roadmap" ? "current-menu-item" : ""}`}>
                     <Link href="/roadmap">Roadmap</Link>
                 </li>
-                <li className={`menu-item menu-item-has-children ${checkParentActive(["/blog-grid", "/blog-list", "/blog-details"])}`}>
+                {/* <li className={`menu-item menu-item-has-children ${checkParentActive(["/blog-grid", "/blog-list", "/blog-details"])}`}>
                     <Link href="#">Blog</Link>
                     <ul className="sub-menu">
                         <li className={`menu-item ${checkCurrentMenuItem("/blog-grid")}`}>
@@ -106,6 +113,13 @@ export default function Menu() {
                             <Link href="/blog-details">Blog Detail</Link>
                         </li>
                     </ul>
+                </li> */}
+                
+                <li className={`menu-item ${pathname === "/presale" ? "current-menu-item" : ""}`}>
+                    <Link href="/presale">Presale</Link>
+                </li>
+                <li className={`menu-item ${pathname === "/staking" ? "current-menu-item" : ""}`}>
+                    <Link href="/staking">Staking</Link>
                 </li>
                 <li className={`menu-item ${pathname === "/contact" ? "current-menu-item" : ""}`}>
                     <Link href="/contact">Contact</Link>

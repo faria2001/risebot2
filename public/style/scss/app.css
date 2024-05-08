@@ -40,8 +40,8 @@ body.home2 .bg_body .bg_h2 img {
   height: 100%;
   opacity: 0.5;
   background: linear-gradient(180deg, #09121D 3.92%, rgba(9, 18, 29, 0) 36.79%, #09121D 83.98%);
-  mix-blend-mode: luminosity;
-}
+  /* mix-blend-mode: luminosity;
+} */
 
 p {
   font-family: "Space Grotesk", sans-serif;
@@ -1344,6 +1344,18 @@ form button {
   position: relative;
   overflow: hidden;
 }
+
+.project-wrapper .content-wrapper .content_inner_left {
+  padding: 30px 30px 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ 
+  background:  linear-gradient(270deg, rgba(35, 44, 54, 0) 100%, #1A222C 17.33%);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+
 .project-wrapper .content-wrapper .content_inner .wrapper {
   position: relative;
   z-index: 9999;
@@ -1544,6 +1556,23 @@ form button {
   animation: move3 5s infinite linear;
   -webkit-animation: move3 5s infinite linear;
 }
+
+.img_technology .coin.coin_7 {
+  position: absolute;
+  top: 2%;
+  left: -2%;
+  animation: move3 5s infinite linear;
+  -webkit-animation: move3 5s infinite linear;
+}
+
+.img_technology .coin.coin_8 {
+  position: absolute;
+  top: -10%;
+  left: 53%;
+  animation: move3 5s infinite linear;
+  -webkit-animation: move3 5s infinite linear;
+}
+
 
 .content_faq {
   text-align: center;

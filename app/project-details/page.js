@@ -22,8 +22,8 @@ export default function ProjectDetails() {
                                                 </div>
                                             </div>
                                             <div className="content">
-                                                <h5 className="heading">Codyfight IGO</h5>
-                                                <p className="desc">CTHG / BUSD</p>
+                                                <h5 className="heading">Base Bubu</h5>
+                                                <p className="desc">BUBU / BUST</p>
                                             </div>
                                         </div>
                                         <div className="content-inner">
@@ -135,8 +135,8 @@ export default function ProjectDetails() {
                                 </article>
                                 <div className="sidebar" data-aos="fade-left" data-aos-duration={1200} data-aos-delay={200}>
                                     <div className="prodect-content">
-                                        <h4 className="heading mb10">About Project</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna ipsum. Phasellus dignissim odio eget turpis scelerisque imperdiet. Praesent sit amet maximus nunc. Donec ornare mauris odio, sit amet vestibulum lectus elementum vitae. Nulla eget fermentum dolor. Sed quis ante iaculis, consequat odio eget.</p>
+                                        <h4 className="heading mb10">About Bubu the Bear</h4>
+                                        <p>Introducing Bubu the Bear, the most endearing and lovable mascot the crypto world has ever seen! Bubu started his journey as an ordinary forest dweller with an extraordinary love for honey, long naps, and the occasional adventure. One sunny afternoon, while exploring a particularly tech-savvy camper's backpack, Bubu accidentally activated a cryptocurrency app. With curiosity sparked by glowing screens and intriguing charts, Bubu's transformation from a simple forest bear into a crypto sensation began.</p>
                                         <div className="spacing" />
                                         <ul className="social justify-content-start mb30">
                                             <li>

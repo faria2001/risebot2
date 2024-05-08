@@ -44,7 +44,7 @@ export default function Roadmap() {
                         <div className="col-md-12">
                             <div className="tf-title" data-aos="fade-up" data-aos-duration={800}>
                                 <h2 className="title">
-                                    Roadmap
+                                Why the Community Adores Bubu
                                 </h2>
                             </div>
                         </div>
@@ -59,12 +59,16 @@ export default function Roadmap() {
                                                         <img src="/assets/images/common/icon_roadmap.svg" alt="" />
                                                     </div>
                                                     <div className="content">
-                                                        <h6 className="date">April 16, 2022</h6>
-                                                        <ul>
+                                                        <h6 className="date">Eco-Warrior</h6>
+                                                        <p style={{ textAlign: 'justify' }}>
+                                                        A portion of Bubu’s  transactions is dedicated to forest conservation projects, 
+                                                        protecting Bubu's home and the homes of his forest friends. This initiative has resonated deeply with environmentally conscious investors.
+                                                        </p>
+                                                        {/* <ul>
                                                             <li>Cras molestie ullamcorper augue nec pulvinar</li>
                                                             <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
                                                             <li>Mauris vel nisl quis dolor accumsan luctus</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                 </div>
                                             </SwiperSlide>
@@ -74,12 +78,16 @@ export default function Roadmap() {
                                                         <img src="/assets/images/common/icon_roadmap.svg" alt="" />
                                                     </div>
                                                     <div className="content">
-                                                        <h6 className="date">April 16, 2022</h6>
-                                                        <ul>
+                                                        <h6 className="date">Bearish Humor </h6>
+                                                        <p style={{ textAlign: 'justify' }}>
+                                                        Bubu’s regular "Bear Market Tips" include advice such as "Always invest in a good nap" and "Honey is the sweetest investment.
+                                                        " His lighthearted take on the crypto market brings smiles and is a refreshing reminder not to take life too seriously.
+                                                        </p>
+                                                        {/* <ul>
                                                             <li>Cras molestie ullamcorper augue nec pulvinar</li>
                                                             <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
                                                             <li>Mauris vel nisl quis dolor accumsan luctus</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                 </div>
                                             </SwiperSlide>
@@ -89,12 +97,20 @@ export default function Roadmap() {
                                                         <img src="/assets/images/common/icon_roadmap.svg" alt="" />
                                                     </div>
                                                     <div className="content">
-                                                        <h6 className="date">April 16, 2022</h6>
-                                                        <ul>
-                                                            <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                            <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                            <li>Mauris vel nisl quis dolor accumsan luctus</li>
-                                                        </ul>
+                                                        <h6 className="date">Accessibility Advocate</h6>
+                                                        <p style={{ textAlign: 'justify' }}>
+                                                        Bubu's charm goes beyond his market influence. Here are just a few reasons why the community has fallen head over heels for Bubu the Bear:
+                                                        </p>
+                                                        {/* <ul>
+                                                            <li>Eco-Warrior*: A portion of Bubu’s  transactions is dedicated to forest conservation projects, protecting Bubu's home and the homes of his forest friends. This initiative has resonated deeply with environmentally conscious investors.</li>
+                                                            <li>*Bearish Humor*: Bubu’s regular "Bear Market Tips" include advice such as "Always invest in a good nap" and "Honey is the sweetest investment." His lighthearted take on the crypto market brings smiles and is a refreshing reminder not to take life too seriously.</li>
+                                                            <li>*Accessibility Advocate*: Bubu is on a mission to make crypto accessible to everyone, not just the tech-savvy. He simplifies complex crypto concepts into fun, easy-to-understand bear analogies, making him a favorite in educational crypto circles.</li>
+                                                            <li>*Community Builder*: Bubu hosts yearly "Honey and Blockchain" meetups in the forest, blending virtual activities with real-world conservation efforts. These events are not only a chance to learn about crypto but also a way to meet other community members and take part in preserving natural habitats.</li>
+                                                            <li>*Charismatic Leader*: Despite his accidental entry into crypto, Bubu’s innate leadership qualities have shone through. He encourages open communication, shares his honey, and ensures all members feel welcome in the Bubu family.</li>
+                                                        </ul> */}
+                                                        <p style={{ textAlign: 'justify' }}>Bubu is on a mission to make crypto accessible to everyone, not just the tech-savvy. He simplifies complex crypto concepts into fun, easy-to-understand bear analogies, making him a favorite in educational crypto circles.</p>
+                                                        
+
                                                     </div>
                                                 </div>
                                             </SwiperSlide>
@@ -104,16 +120,38 @@ export default function Roadmap() {
                                                         <img src="/assets/images/common/icon_roadmap.svg" alt="" />
                                                     </div>
                                                     <div className="content">
-                                                        <h6 className="date">April 16, 2022</h6>
-                                                        <ul>
+                                                        <h6 className="date">Community Builder</h6>
+                                                        <p style={{ textAlign: 'justify' }}>
+                                                        Bubu hosts yearly "Honey and Blockchain" meetups in the forest, blending virtual activities with real-world conservation efforts. These events are not only a chance to learn about crypto but also a way to meet other community members and take part in preserving natural habitats.
+                                                        </p>
+                                                        {/* <ul>
                                                             <li>Cras molestie ullamcorper augue nec pulvinar</li>
                                                             <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
                                                             <li>Mauris vel nisl quis dolor accumsan luctus</li>
-                                                        </ul>
+                                                        </ul> */}
                                                     </div>
                                                 </div>
                                             </SwiperSlide>
                                             <SwiperSlide>
+                                                <div className="roadmap-box active" >
+                                                    <div className="icon">
+                                                        <img src="/assets/images/common/icon_roadmap.svg" alt="" />
+                                                    </div>
+                                                    <div className="content">
+                                                        <h6 className="date">Charismatic Leader</h6>
+                                                        <p style={{ textAlign: 'justify' }}>
+                                                        Despite his accidental entry into crypto, Bubu’s innate leadership qualities have shone through. 
+                                                        He encourages open communication, shares his honey, and ensures all members feel welcome in the Bubu family.
+                                                        </p>
+                                                        {/* <ul>
+                                                            <li>Cras molestie ullamcorper augue nec pulvinar</li>
+                                                            <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
+                                                            <li>Mauris vel nisl quis dolor accumsan luctus</li>
+                                                        </ul> */}
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                            {/* <SwiperSlide>
                                                 <div className="roadmap-box">
                                                     <div className="icon">
                                                         <img src="/assets/images/common/icon_roadmap.svg" alt="" />
@@ -157,22 +195,7 @@ export default function Roadmap() {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </SwiperSlide>
-                                            <SwiperSlide>
-                                                <div className="roadmap-box">
-                                                    <div className="icon">
-                                                        <img src="/assets/images/common/icon_roadmap.svg" alt="" />
-                                                    </div>
-                                                    <div className="content">
-                                                        <h6 className="date">April 16, 2022</h6>
-                                                        <ul>
-                                                            <li>Cras molestie ullamcorper augue nec pulvinar</li>
-                                                            <li>Nam mollis sapien ut sapien gravida sollicitudin</li>
-                                                            <li>Mauris vel nisl quis dolor accumsan luctus</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </SwiperSlide>
+                                            </SwiperSlide> */}
                                         </Swiper>
                                     </div>
                                 </div>
